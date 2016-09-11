@@ -36,7 +36,7 @@
 <br>
 
 ### D. (Screenshot)<br>
-![Screenshot 1](https://s12.postimg.org/h2rliff19/Capture5.png)<br>
-![Screenshot 2](https://s12.postimg.org/7qr7rlrkd/Capture6.png)<br>
-![Screenshot 3](https://s21.postimg.org/v8s9xa8tj/Capture3.png)<br>
+![Screenshot 1](https://s10.postimg.io/5u642behl/Capture1.png)<br>
+![Screenshot 2](https://s12.postimg.io/w2t39unst/Capture2.png)<br>
+![Screenshot 3](https://s16.postimg.io/p7aa6up5h/Capture3.png)<br>
 
