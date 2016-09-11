@@ -41,13 +41,13 @@
             android:src="@drawable/smktelkommalang" />
 
         <EditText
-            android:id="@+id/editText"
+            android:id="@+id/editTextNama"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Nama Lengkap" />
 
         <EditText
-            android:id="@+id/editText2"
+            android:id="@+id/editTextTahun"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Tahun Kelahiran" />
@@ -59,24 +59,27 @@
             android:text="Gender" />
 
         <RadioGroup
+            android:id="@+id/radioGroupGender"
             android:layout_width="349dp"
             android:layout_height="wrap_content">
 
             <RadioButton
-                android:id="@+id/radioButton"
+                android:id="@+id/radioButtonLK"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:checked="false"
                 android:text="Laki-Laki" />
 
             <RadioButton
-                android:id="@+id/radioButton2"
+                android:id="@+id/radioButtonPR"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:checked="false"
                 android:text="Perempuan" />
         </RadioGroup>
 
         <EditText
-            android:id="@+id/editText3"
+            android:id="@+id/editTextAS"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Asal Sekolah" />
@@ -94,25 +97,34 @@
             android:text="Peminatan Jurusan" />
 
         <CheckBox
-            android:id="@+id/checkBox"
+            android:id="@+id/checkBoxRPL"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:checked="false"
             android:text="Rekayasa Perangkat Lunak" />
 
         <CheckBox
-            android:id="@+id/checkBox2"
+            android:id="@+id/checkBox2TKJ"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:checked="false"
             android:text="Teknik Komputer dan Jaringan" />
 
+        <CheckBox
+            android:id="@+id/checkBoxMLT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Multimedia" />
+
         <Button
-            android:id="@+id/button"
+            android:id="@+id/buttonOK"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Tampilkan" />
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/textViewHasil"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="New Text" />
