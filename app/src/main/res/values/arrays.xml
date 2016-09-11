@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="kota">
+        <item>Malang</item>
+        <item>Tulungagung</item>
+        <item>Blitar</item>
+        <item>Surabaya</item>
+        <item>Ngawi</item>
+        <item>Pasuruan</item>
+        <item>Sidoarjo</item>
+        <item>Probolinggo</item>
+    </string-array>
+</resources>

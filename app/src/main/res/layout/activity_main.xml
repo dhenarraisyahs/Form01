@@ -40,17 +40,28 @@
             android:layout_height="150dp"
             android:src="@drawable/smktelkommalang" />
 
-        <EditText
-            android:id="@+id/editTextNama"
+        <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Nama Lengkap" />
+            android:layout_height="wrap_content">
 
-        <EditText
-            android:id="@+id/editTextTahun"
+            <EditText
+                android:id="@+id/editTextNama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nama Lengkap" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Tahun Kelahiran" />
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/editTextTahun"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tahun Kelahiran"
+                android:inputType="numberSigned" />
+        </android.support.design.widget.TextInputLayout>
 
         <TextView
             android:id="@+id/textView2"
@@ -78,20 +89,26 @@
                 android:text="Perempuan" />
         </RadioGroup>
 
-        <EditText
-            android:id="@+id/editTextAS"
+        <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Asal Sekolah" />
+            android:layout_height="wrap_content">
 
-
-        <Spinner
-            android:id="@+id/spinner"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+        </android.support.design.widget.TextInputLayout>
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asal Kota" />
+
+        <Spinner
+            android:id="@+id/spinnerKota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/kota" />
+
+        <TextView
+            android:id="@+id/textViewPJ"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Peminatan Jurusan" />
@@ -104,7 +121,7 @@
             android:text="Rekayasa Perangkat Lunak" />
 
         <CheckBox
-            android:id="@+id/checkBox2TKJ"
+            android:id="@+id/checkBoxTKJ"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
@@ -119,15 +136,40 @@
 
         <Button
             android:id="@+id/buttonOK"
+            style="@style/Base.TextAppearance.AppCompat.Title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Tampilkan" />
+            android:background="@drawable/bgbtn"
+            android:text="Tampilkan"
+            android:textColor="@android:color/white" />
 
         <TextView
             android:id="@+id/textViewHasil"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Text" />
+            android:text="New Text"
+            tools:text="Hasil" />
+
+        <TextView
+            android:id="@+id/textViewHasil2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            tools:text="Hasil" />
+
+        <TextView
+            android:id="@+id/textViewHasil3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            tools:text="Hasil" />
+
+        <TextView
+            android:id="@+id/textViewHasil4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            tools:text="Hasl" />
 
     </LinearLayout>
 </ScrollView>
